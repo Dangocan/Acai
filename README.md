@@ -1,5 +1,6 @@
 # Açai Ordering Project
 
+You can order an Açai with flavor, size and accompaniments options
 (It's just frontEnd)
 
 ## How to run:
@@ -9,4 +10,4 @@
 
 ## How it works:
 
-You can order an Açai with flavor, size and accompaniments options
+Select flavor, size and accompaniments options.
