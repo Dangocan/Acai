@@ -1,14 +1,22 @@
-import React from "react";
+import React, { useState } from "react";
 import { MainModal, OutlinedButton, ListCards } from "../../components";
 
 function Tela2() {
+  const [additional, setAdditional] = useState("Granola");
+
   return (
     <MainModal title="Personalize seu açai">
       <ListCards
+        setValue={setAdditional}
+        value={additional}
         title="Personalização"
         options={["Granola", "Paçoca", "Leite ninho"]}
       />
-      <OutlinedButton title="Finalizar pedido" />
+      <OutlinedButton
+        isSubmit={true}
+        values={[{ name: "Personalização", values: additional }]}
+        title="Finalizar pedido"
+      />
     </MainModal>
   );
 }
