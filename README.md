@@ -10,4 +10,4 @@ You can order an Açai with flavor, size and accompaniments options
 
 ## How it works:
 
-Select flavor, size and accompaniments options.
+Select flavor, size and accompaniments options. You can remake the order in case you change your mind
