@@ -1,5 +1,6 @@
 const Style = {
   Container: {
+    cursor: "pointer",
     alignSelf: "flex-end",
     background: "white",
     border: "1px solid purple",
